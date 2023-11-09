@@ -1,0 +1,38 @@
+level 1:
+git commit
+git commit
+
+level 2:
+git branch bugFix; git checkout bugFix
+
+level 3:
+git branch bugFix
+git checkout bugFix
+git commit
+git checkout main
+git commit
+git merge bugFix
+
+Level 4:
+git checkout bugFix
+git commit
+git checkout main; git commit
+git checkout bugFix
+git rebase
+
+Level 5:
+git checkout bugFix
+git checkout C4
+
+Level 6
+git checkout bugFix^
+
+Level 7:
+git checkout C0
+git branch -f bugFix HEAD
+git checkout C6
+git branch -f main HEAD
+git checkout C1
+
+Level 8:
+
